@@ -1,0 +1,96 @@
+html {
+   margin-top: 200px;
+}
+
+input {
+   padding: 10px 10px 10px 5px;
+   font-size: 20px;
+   outline: none;
+   border: none;
+   border-bottom: 1px solid #222222;
+   background: transparent;
+}
+
+.input-login {
+   display: flex;
+   justify-content: center;
+   margin-top: 10px;
+}
+
+.input-label {
+   position: absolute;
+   font-size: 20px;
+   margin-top: 10px;
+   margin-right: 180px;
+}
+
+.text-input:focus~label {
+   margin-top: -5px;
+   margin-right: 200px;
+   font-size: 12px;
+   color: #7700ff;
+}
+
+.text-input:focus {
+   border-bottom: 2px solid #7700ff;
+}
+
+.text-input-focus~label {
+   margin-top: -5px;
+   margin-right: 200px;
+   font-size: 12px;
+   color: #7700ff;
+}
+
+.text-input-focus {
+   border-bottom: 2px solid #7700ff;
+}
+
+.checkbox-login {
+   display: flex;
+   justify-content: center;
+   margin-right: 160px;
+}
+
+.checkbox-label {
+   font-size: 14px;
+   margin-top: 4px;
+}
+
+.checkbox-input {
+   accent-color: #7700ff;
+}
+
+button {
+   border: none;
+   border-radius: 5px;
+   font-size: 16px;
+   font-family:'Times New Roman', Times, serif
+}
+
+a {
+   display: flex;
+   justify-content: center;
+   margin-top: 5px;
+   font-size: 14px;
+   text-decoration: none;
+   color: #222222;
+}
+
+.button-login {
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+}
+
+.login-button {
+   background: #7700ff;
+   color: #ffffff;
+   padding: 10px 30px;
+}
+
+.sign-up-button {
+   padding: 10px 25px;
+   background: #222222;
+   color: #ffffff;
+}

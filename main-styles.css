@@ -1,0 +1,19 @@
+html {
+   margin-top: 20px;
+   margin-left: 10%;
+   margin-right: 10%;
+}
+
+.login-signup {
+   display: flex;
+   justify-content: end;
+   margin-bottom: 20px;
+}
+
+.login {
+   margin-right: 2px;
+}
+
+.sign-up {
+   margin-left: 2px;
+}
