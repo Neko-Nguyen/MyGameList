@@ -1,22 +1,39 @@
 html {
-   margin-top: 175px;
+   margin-top: 105px;
+   background: #0C090D;
+}
+
+body {
+   font-family:'Times New Roman', Times, serif
+}
+
+.container-sign-up {
+   padding-top: 70px;
+   padding-bottom: 100px;
+   width: 350px;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 10px;
+   background: transparent;
+   box-shadow: 0px 0px 100px #591C0E;
+   border: 2px solid #BF281B;
 }
 
 input {
    padding: 10px 10px 10px 5px;
    font-size: 20px;
-   background: #3f3f3f;
+   background: #222228;
    border-radius: 5px;
 }
 
 input:focus {
-   border: 2px solid #7700ff;
+   border: 2px solid #908DA6;
    outline: none;
 }
 
 .user-info {
    font-size:15px;
-   color: #ffffff;
+   color: #908DA6;
    width: 245px;
    display: block;
    margin-left: auto;
@@ -25,7 +42,7 @@ input:focus {
 }
 
 .user-info::placeholder {
-   color: #ffffff;
+   color: #908DA6;
 }
 
 p {
@@ -33,7 +50,7 @@ p {
    margin-top: 20px;
    margin-bottom:5px;
    font-size: 14px;
-   color: #222222;
+   color: #908DA6;
 }
 
 .checkbox-login {
@@ -45,10 +62,11 @@ p {
 .checkbox-label {
    font-size: 14px;
    margin-top: 4px;
+   color: #908DA6;
 }
 
 .checkbox-input {
-   accent-color: #7700ff;
+   accent-color: #BF281B;
 }
 
 button {
@@ -65,13 +83,13 @@ button {
 
 .create-account-button {
    margin-top: 20px;
-   background: #7700ff;
-   color: #ffffff;
+   background: #591C0E;
+   color: #908DA6;
    padding: 10px 25px;
 }
 
 .login-button {
-   background: #222222;
-   color: #ffffff;
+   background: #591C0E;
+   color: #908DA6;
    padding: 10px 55px;
 }

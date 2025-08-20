@@ -1,5 +1,22 @@
 html {
-   margin-top: 200px;
+   margin-top: 100px;
+   background: #0C090D;
+}
+
+body {
+   font-family:'Times New Roman', Times, serif
+}
+
+.container-login {
+   padding-top: 50px;
+   padding-bottom: 70px;
+   width: 350px;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 10px;
+   background: transparent;
+   box-shadow: 0px 0px 100px #591C0E;
+   border: 2px solid #BF281B;
 }
 
 input {
@@ -7,7 +24,7 @@ input {
    font-size: 20px;
    outline: none;
    border: none;
-   border-bottom: 1px solid #222222;
+   border-bottom: 1px solid #908DA6;
    background: transparent;
 }
 
@@ -22,28 +39,29 @@ input {
    font-size: 20px;
    margin-top: 10px;
    margin-right: 180px;
+   color: #908DA6;
 }
 
 .text-input:focus~label {
    margin-top: -5px;
    margin-right: 200px;
    font-size: 12px;
-   color: #7700ff;
+   color: #BF281B;
 }
 
 .text-input:focus {
-   border-bottom: 2px solid #7700ff;
+   border-bottom: 2px solid #BF281B;
 }
 
 .text-input-focus~label {
    margin-top: -5px;
    margin-right: 200px;
    font-size: 12px;
-   color: #7700ff;
+   color: #BF281B;
 }
 
 .text-input-focus {
-   border-bottom: 2px solid #7700ff;
+   border-bottom: 2px solid #BF281B;
 }
 
 .checkbox-login {
@@ -55,10 +73,11 @@ input {
 .checkbox-label {
    font-size: 14px;
    margin-top: 4px;
+   color: #908DA6;
 }
 
 .checkbox-input {
-   accent-color: #7700ff;
+   accent-color: #BF281B;
 }
 
 button {
@@ -74,7 +93,7 @@ a {
    margin-top: 5px;
    font-size: 14px;
    text-decoration: none;
-   color: #222222;
+   color: #908DA6;
 }
 
 .button-login {
@@ -84,13 +103,13 @@ a {
 }
 
 .login-button {
-   background: #7700ff;
-   color: #ffffff;
+   background: #591C0E;
+   color: #908DA6;
    padding: 10px 30px;
 }
 
 .sign-up-button {
-   background: #222222;
-   color: #ffffff;
+   background: #591C0E;
+   color: #908DA6;
    padding: 10px 25px;
 }
