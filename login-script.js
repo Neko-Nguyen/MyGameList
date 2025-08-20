@@ -13,18 +13,18 @@ loginCheckbox.addEventListener("change", function() {
 
 passwordInput.addEventListener("blur", function(event) {
    if (passwordInput.value.length > 0) {
-      passwordInput.className = "text-input-focus"
+      passwordInput.className = "input-text-focus input"
    }
    else {
-      passwordInput.className = "text-input";
+      passwordInput.className = "input-text input";
    }
 })
 
 usernameInput.addEventListener("blur", function(event) {
    if (usernameInput.value.length > 0) {
-      usernameInput.className = "text-input-focus"
+      usernameInput.className = "input-text-focus input"
    }
    else {
-      usernameInput.className = "text-input";
+      usernameInput.className = "input-text input";
    }
 })

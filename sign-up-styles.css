@@ -1,10 +1,11 @@
 html {
    margin-top: 105px;
-   background: #0C090D;
+   background: #000000;
 }
 
 body {
-   font-family:'Times New Roman', Times, serif
+   font-family: "Smooch Sans", sans-serif;
+   letter-spacing: 1px;
 }
 
 .container-sign-up {
@@ -15,34 +16,36 @@ body {
    margin-right: auto;
    border-radius: 10px;
    background: transparent;
-   box-shadow: 0px 0px 100px #591C0E;
-   border: 2px solid #BF281B;
+   box-shadow: 0px 0px 400px #590e0e;
+   border: 2px solid #960824;
 }
 
-input {
+.user-info {
+   font-size:18px;
+   color: #9893AE;
+   width: 245px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 20px;
+   font-family: "Smooch Sans", sans-serif;
+   letter-spacing: 1px;
    padding: 10px 10px 10px 5px;
    font-size: 20px;
    background: #222228;
    border-radius: 5px;
 }
 
-input:focus {
-   border: 2px solid #908DA6;
-   outline: none;
-}
-
-.user-info {
-   font-size:15px;
-   color: #908DA6;
-   width: 245px;
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   margin-top: 20px;
-}
-
 .user-info::placeholder {
-   color: #908DA6;
+   color: #9893AE;
+   font-size: 18px;
+   font-family: "Smooch Sans", sans-serif;
+   letter-spacing: 1px;
+}
+
+.user-info:focus {
+   border: 2px solid #960824;
+   outline: none;
 }
 
 p {
@@ -50,7 +53,7 @@ p {
    margin-top: 20px;
    margin-bottom:5px;
    font-size: 14px;
-   color: #908DA6;
+   color: #9893AE;
 }
 
 .checkbox-login {
@@ -62,34 +65,38 @@ p {
 .checkbox-label {
    font-size: 14px;
    margin-top: 4px;
-   color: #908DA6;
+   color: #9893AE;
 }
 
 .checkbox-input {
-   accent-color: #BF281B;
+   accent-color: #F20D3B;
 }
 
-button {
+.btn {
    border: none;
    border-radius: 5px;
-   font-size: 16px;
-   font-family:'Times New Roman', Times, serif
+   font-size: 20px;
+   font-family: "Smooch Sans", sans-serif;
+   letter-spacing: 1px;
+   font-weight: bold;
+   background: #F20D3B;
+   color: #0C090D;
+   text-decoration: none;
 }
 
-.button-sign-up {
+.btn-container {
    display: flex;
    justify-content: center;
 }
 
-.create-account-button {
+.create-account-btn {
    margin-top: 20px;
-   background: #591C0E;
-   color: #908DA6;
-   padding: 10px 25px;
+   padding: 10px 20px;
 }
 
-.login-button {
-   background: #591C0E;
-   color: #908DA6;
+.login-btn {
+   font-weight: bold;
+   background: #F20D3B;
+   color: #0C090D;
    padding: 10px 55px;
 }

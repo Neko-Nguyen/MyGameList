@@ -1,13 +1,14 @@
 html {
    margin-top: 100px;
-   background: #0C090D;
+   background: #000000;
 }
 
 body {
-   font-family:'Times New Roman', Times, serif
+   font-family: "Smooch Sans", sans-serif;
+   letter-spacing: 1px;
 }
 
-.container-login {
+.login-container {
    padding-top: 50px;
    padding-bottom: 70px;
    width: 350px;
@@ -15,20 +16,11 @@ body {
    margin-right: auto;
    border-radius: 10px;
    background: transparent;
-   box-shadow: 0px 0px 100px #591C0E;
-   border: 2px solid #BF281B;
+   box-shadow: 0px 0px 400px #591C0E;
+   border: 2px solid #960824;
 }
 
-input {
-   padding: 10px 10px 10px 5px;
-   font-size: 20px;
-   outline: none;
-   border: none;
-   border-bottom: 1px solid #908DA6;
-   background: transparent;
-}
-
-.input-login {
+.input-container {
    display: flex;
    justify-content: center;
    margin-top: 10px;
@@ -39,32 +31,49 @@ input {
    font-size: 20px;
    margin-top: 10px;
    margin-right: 180px;
-   color: #908DA6;
+   color: #9893AE;
 }
 
-.text-input:focus~label {
+.input {
+   padding: 10px 10px 10px 5px;
+   font-size: 20px;
+   outline: none;
+   border: none;
+   border-bottom: 1px solid #9893AE;
+   background: transparent;
+   color: #9893AE;
+   font-family: "Smooch Sans", sans-serif;
+   letter-spacing: 1px;
+}
+
+.input-text {
+   width: 240px;
+}
+
+.input-text:focus~label {
    margin-top: -5px;
    margin-right: 200px;
    font-size: 12px;
-   color: #BF281B;
+   color: #F20D3B;
 }
 
-.text-input:focus {
-   border-bottom: 2px solid #BF281B;
+.input-text:focus {
+   border-bottom: 2px solid #F20D3B;
 }
 
-.text-input-focus~label {
+.input-text-focus~label {
    margin-top: -5px;
    margin-right: 200px;
    font-size: 12px;
-   color: #BF281B;
+   color: #F20D3B;
 }
 
-.text-input-focus {
-   border-bottom: 2px solid #BF281B;
+.input-text-focus {
+   width: 240px;
+   border-bottom: 2px solid #F20D3B;
 }
 
-.checkbox-login {
+.checkbox-container {
    display: flex;
    justify-content: center;
    margin-right: 160px;
@@ -73,43 +82,44 @@ input {
 .checkbox-label {
    font-size: 14px;
    margin-top: 4px;
-   color: #908DA6;
+   color: #9893AE;
 }
 
-.checkbox-input {
-   accent-color: #BF281B;
+.checkbox {
+   accent-color: #960824;
 }
 
-button {
+.btn {
    border: none;
    border-radius: 5px;
-   font-size: 16px;
-   font-family:'Times New Roman', Times, serif
+   font-size: 20px;
+   font-family: "Smooch Sans", sans-serif;
+   letter-spacing: 1px;
+   background: #F20D3B;
+   color: #0C090D;
+   text-decoration: none;
 }
 
-a {
+.forgot-password {
    display: flex;
    justify-content: center;
    margin-top: 5px;
    font-size: 14px;
    text-decoration: none;
-   color: #908DA6;
+   color: #9893AE;
 }
 
-.button-login {
+.btn-container {
    display: flex;
    justify-content: center;
    margin-top: 20px;
+   font-weight: bold;
 }
 
-.login-button {
-   background: #591C0E;
-   color: #908DA6;
+.login-btn {
    padding: 10px 30px;
 }
 
-.sign-up-button {
-   background: #591C0E;
-   color: #908DA6;
+.sign-up-btn {
    padding: 10px 25px;
 }
