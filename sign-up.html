@@ -9,17 +9,27 @@
    </head>
    
    <body>
+      <nav>
+      </nav>
+
       <script src="sign-up-script.js" defer></script>
 
-      <div class="container-sign-up">
-         <input type="email" placeholder="Email" class="user-info">
-         <input type="text" placeholder="Username" class="user-info">
-         <input type="password" id="password" placeholder="Password" class="user-info">
+      <fieldset class="container-sign-up">
+         <legend class="title">Sign Up</legend>
 
-         <div class="checkbox-login">
+         <label for="email" class="input-label">Email</label>">
+         <input type="email" placeholder="Ex. abc123@gmail.com" class="user-info" id="email">
+
+         <label for="username" class="input-label">Username</label>
+         <input type="text" placeholder="Ex. orangeCatLover123" class="user-info" id="username">
+
+         <label for="password" class="input-label">Password</label>
+         <input type="password" placeholder="Contain atleast a number and a letter" class="user-info" id="password">
+         <span class="checkbox-password">
             <input type="checkbox" id="show-password" class="checkbox-input"> 
             <label for="show-password" class="checkbox-label">Show password</label>
-         </div>
+         </span>
+
          
          <div class="btn-container">
             <a class="create-account-btn btn">Create Account</a>
@@ -29,6 +39,6 @@
          <div class="btn-container">
             <a href="login.html" class="login-btn btn">Login</a>
          </div>
-      </div>
+      </fieldset>
    </body>
 </html>

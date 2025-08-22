@@ -1,11 +1,16 @@
 html {
    margin-top: 105px;
-   background: #000000;
+   background: #0D0D0D;
 }
 
 body {
    font-family: "Smooch Sans", sans-serif;
    letter-spacing: 1px;
+}
+
+.title {
+   font-size: 3rem;
+   color: #960824;
 }
 
 .container-sign-up {
@@ -21,24 +26,22 @@ body {
 }
 
 .user-info {
-   font-size:18px;
    color: #9893AE;
    width: 245px;
    display: block;
    margin-left: auto;
    margin-right: auto;
-   margin-top: 20px;
    font-family: "Smooch Sans", sans-serif;
    letter-spacing: 1px;
    padding: 10px 10px 10px 5px;
-   font-size: 20px;
-   background: #222228;
-   border-radius: 5px;
+   font-size: 1.25rem;
+   background: #262626;
+   border-radius: 6px;
 }
 
 .user-info::placeholder {
    color: #9893AE;
-   font-size: 18px;
+   font-size: 1rem;
    font-family: "Smooch Sans", sans-serif;
    letter-spacing: 1px;
 }
@@ -48,22 +51,29 @@ body {
    outline: none;
 }
 
+.input-label {
+   display: inline-block;
+   color: #9893AE;
+   margin-top: 10px;
+   margin-left: 45px;
+}
+
 p {
    text-align: center;
    margin-top: 20px;
    margin-bottom:5px;
-   font-size: 14px;
+   font-size: 1rem;
    color: #9893AE;
 }
 
-.checkbox-login {
+.checkbox-password {
    display: flex;
    justify-content: center;
    margin-right: 160px;
 }
 
 .checkbox-label {
-   font-size: 14px;
+   font-size: 1rem;
    margin-top: 4px;
    color: #9893AE;
 }
@@ -75,13 +85,14 @@ p {
 .btn {
    border: none;
    border-radius: 5px;
-   font-size: 20px;
+   font-size: 1.25rem;
    font-family: "Smooch Sans", sans-serif;
    letter-spacing: 1px;
    font-weight: bold;
    background: #F20D3B;
-   color: #0C090D;
+   color: #262626;
    text-decoration: none;
+   text-shadow: 0 0 1px #262626;
 }
 
 .btn-container {
@@ -95,8 +106,7 @@ p {
 }
 
 .login-btn {
-   font-weight: bold;
    background: #F20D3B;
-   color: #0C090D;
+   color: #262626;
    padding: 10px 55px;
 }

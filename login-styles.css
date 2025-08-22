@@ -1,11 +1,16 @@
 html {
    margin-top: 100px;
-   background: #000000;
+   background: #0D0D0D;
 }
 
 body {
    font-family: "Smooch Sans", sans-serif;
    letter-spacing: 1px;
+}
+
+.title {
+   font-size: 3rem;
+   color: #960824;
 }
 
 .login-container {
@@ -16,7 +21,7 @@ body {
    margin-right: auto;
    border-radius: 10px;
    background: transparent;
-   box-shadow: 0px 0px 400px #591C0E;
+   box-shadow: 0px 0px 400px #590e0e;
    border: 2px solid #960824;
 }
 
@@ -28,7 +33,7 @@ body {
 
 .input-label {
    position: absolute;
-   font-size: 20px;
+   font-size: 1.25rem;
    margin-top: 10px;
    margin-right: 180px;
    color: #9893AE;
@@ -36,7 +41,7 @@ body {
 
 .input {
    padding: 10px 10px 10px 5px;
-   font-size: 20px;
+   font-size: 1.25rem;
    outline: none;
    border: none;
    border-bottom: 1px solid #9893AE;
@@ -53,7 +58,7 @@ body {
 .input-text:focus~label {
    margin-top: -5px;
    margin-right: 200px;
-   font-size: 12px;
+   font-size: 0.8rem;
    color: #F20D3B;
 }
 
@@ -64,7 +69,7 @@ body {
 .input-text-focus~label {
    margin-top: -5px;
    margin-right: 200px;
-   font-size: 12px;
+   font-size: 0.8rem;
    color: #F20D3B;
 }
 
@@ -80,7 +85,7 @@ body {
 }
 
 .checkbox-label {
-   font-size: 14px;
+   font-size: 1rem;
    margin-top: 4px;
    color: #9893AE;
 }
@@ -92,19 +97,20 @@ body {
 .btn {
    border: none;
    border-radius: 5px;
-   font-size: 20px;
+   font-size: 1.25rem;
    font-family: "Smooch Sans", sans-serif;
    letter-spacing: 1px;
    background: #F20D3B;
-   color: #0C090D;
+   color: #262626;
    text-decoration: none;
+   text-shadow: 0 0 1px #262626;
 }
 
 .forgot-password {
    display: flex;
    justify-content: center;
    margin-top: 5px;
-   font-size: 14px;
+   font-size: 1rem;
    text-decoration: none;
    color: #9893AE;
 }
@@ -117,9 +123,9 @@ body {
 }
 
 .login-btn {
-   padding: 10px 30px;
+   padding: 10px 35px;
 }
 
 .sign-up-btn {
-   padding: 10px 25px;
+   padding: 10px 30px;
 }

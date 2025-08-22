@@ -2,6 +2,12 @@ html {
    margin-top: 20px;
    margin-left: 10%;
    margin-right: 10%;
+   background: #0D0D0D;
+}
+
+body {
+   font-family: "Smooch Sans", sans-serif;
+   letter-spacing: 1px;
 }
 
 .login-signup {
