@@ -1,30 +1,44 @@
 <!DOCTYPE html>
 <html>
    <head>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@500&display=swap" rel="stylesheet">
       <link rel="stylesheet" type="text/css" href="index-styles.css">
       <title>MyGameList - Secret Game Database</title>
    </head>
    
    <body>
-      <nav class="nav-bar">
-         <img src="logo.png" alt="MyGameList Logo" class="logo"   >
-         <div class="login-signup">
-            <a href="login.html"><button class="login">Login</button></a>
-            <a href="sign-up.html"><button href="" class="sign-up">Sign Up</button></a>
+      <header>
+         <div class="nav-bar">
+            <img src="img/logo.png" alt="MyGameList Logo" class="logo">
+            <div>
+               <a href="login.html"><button class="login btn">Login</button></a>
+               <a href="sign-up.html"><button class="sign-up btn">Sign Up</button></a>
+            </div>
          </div>
-      </nav>
+         
+         <nav>
+            <input type="text" placeholder="Search Game, Characters, and more...">
+         </nav>
+         <p> Welcome to MyGameList!</p>
+      </header>
 
-      <input type="text" placeholder="Search Game, Characters, and more...">
-      <p> Welcome to MyGameList!</p>
+      <main>
+         <div>
+            <p>Top New Release</p>
+            <p><a href="">More</a></p>
+            <ul>
+               <li>The King is Watching</li>
+               <li>Grounded 2</li>
+               <li>Wildgate</li>   
+            </ul>
+         </div>
+      </main>
 
-      <div>
-         <p>Top New Release</p>
-         <p><a href="">More</a></p>
-         <ul>
-            <li>The King is Watching</li>
-            <li>Grounded 2</li>
-            <li>Wildgate</li>   
-         </ul>
-      </div>
+      <footer>
+         <p>© 2025 MyGameList. All rights reserved.</p>
+         <p>Contact us through our <a href="iywudla@gmail.com">email</a></p>
+      </footer>
    </body>
 </html>

@@ -81,7 +81,7 @@ body {
 .checkbox-container {
    display: flex;
    justify-content: center;
-   margin-right: 160px;
+   margin-right: 150px;
 }
 
 .checkbox-label {
